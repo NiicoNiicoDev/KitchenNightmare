@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3475750305890833324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4285043999483644182}
+  - component: {fileID: 925581280218400435}
+  - component: {fileID: 3115545417173676665}
+  - component: {fileID: 8029052379325263544}
+  m_Layer: 0
+  m_Name: Carving Knife
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4285043999483644182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475750305890833324}
+  m_LocalRotation: {x: 0.000000021855694, y: -0.00000004371139, z: 1.0165751e-15,
+    w: 1}
+  m_LocalPosition: {x: 2.4548855, y: 0.05000019, z: 3.3252258}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &925581280218400435
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475750305890833324}
+  m_Mesh: {fileID: -5495902117074765545, guid: c042c2387435ce14292e723c9c83a83a, type: 3}
+--- !u!23 &3115545417173676665
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475750305890833324}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e57f20430277c484f98e133ab8aec5e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8029052379325263544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475750305890833324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa7467586acdd34f93aacc1626f0c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseDamage: 5
+  damage: 11
+  cooldown: 5
+  animName: Anim_SpoonAttack
+  VFX_Prefab: {fileID: 0}
+  attackOutlinePrefab: {fileID: 0}
+  VFX_Spawn_Point: {fileID: 0}
+  VFX_Spawn_Rotation: {x: 0, y: 0, z: 0}
+  attatchAnimToPlayer: 1
+  attatchAnimToWeapon: 0
+  killAnimOnAttackEnd: 1
+  shouldRotate: 1
+  canPlayerMove: 1
+  equipSound: {fileID: 0}
+  soundToPlay: {fileID: 0}
+  playUntilFinish: 1
+  shouldLoop: 0
+  isUnlocked: 0
+  currentUpgradeLevel: 0
+  upgradeCosts: fa00000090010000ee020000
+  weaponSprite: {fileID: 21300000, guid: 15608e33c1b314745a931146441bf958, type: 3}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  playerTransform: {fileID: 0}
+  weaponTransform: {fileID: 0}
+  attackHitbox: {x: 1, y: 1, z: 1}
+  attackRange: 5
+  knifeProjectile: {fileID: 7056229407876378536, guid: 667360b5d3ef9ed4ebc05bdd5dc37ce1,
+    type: 3}

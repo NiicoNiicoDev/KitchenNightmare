@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &933895411950571971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4521122021170251042}
+  m_Layer: 0
+  m_Name: Small_Glasses_Cupboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521122021170251042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933895411950571971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8728251, y: 0.4921259, z: 35.522953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6018486037800243317}
+  - {fileID: 4003698292920273502}
+  - {fileID: 6822271289037634428}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3460250091332611509
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 4521122021170251042}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5078251
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4921259
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.035045624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.0165751e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 934517d9413bc184e9ae0388535d4d96,
+        type: 3}
+      propertyPath: m_Name
+      value: Small_Glasses_Door_L
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 934517d9413bc184e9ae0388535d4d96, type: 3}
+--- !u!4 &4003698292920273502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 934517d9413bc184e9ae0388535d4d96,
+    type: 3}
+  m_PrefabInstance: {fileID: 3460250091332611509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6057143962496808862
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 4521122021170251042}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.60217494
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4921259
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.033046722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.0165751e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 12be792f2fb519e40b3bda8b392103ad,
+        type: 3}
+      propertyPath: m_Name
+      value: Small_Glasses_Door_R
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12be792f2fb519e40b3bda8b392103ad, type: 3}
+--- !u!4 &6018486037800243317 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 12be792f2fb519e40b3bda8b392103ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 6057143962496808862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6424150578360900759
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 4521122021170251042}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5339934
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4921259
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.035045624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.0165751e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff954d0349429d74cb587a9755698c25,
+        type: 3}
+      propertyPath: m_Name
+      value: Small_Glass_Cupboard
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff954d0349429d74cb587a9755698c25, type: 3}
+--- !u!4 &6822271289037634428 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff954d0349429d74cb587a9755698c25,
+    type: 3}
+  m_PrefabInstance: {fileID: 6424150578360900759}
+  m_PrefabAsset: {fileID: 0}

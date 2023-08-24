@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8340427115679995686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2929578458344829883}
+  - component: {fileID: 2107739704510045169}
+  m_Layer: 0
+  m_Name: Mortar and Pestle
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2929578458344829883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340427115679995686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2679024707256965839}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2107739704510045169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340427115679995686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3d987c5f2d21549991b62d7b6498ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseDamage: 10
+  damage: 22
+  cooldown: 30
+  animName: Anim_MortarPestleAttack
+  VFX_Prefab: {fileID: 6311529643166903024, guid: 358dd98acc65a574aa6a109d3b4d5835,
+    type: 3}
+  attackOutlinePrefab: {fileID: 472574242909158727, guid: 4b29a77599cc9d54bae13002080b1055,
+    type: 3}
+  VFX_Spawn_Point: {fileID: 0}
+  VFX_Spawn_Rotation: {x: -90, y: 0, z: 0}
+  attatchAnimToPlayer: 1
+  attatchAnimToWeapon: 0
+  killAnimOnAttackEnd: 1
+  shouldRotate: 0
+  canPlayerMove: 0
+  equipSound: {fileID: 8300000, guid: 561307ffff121d04d9b6b0b51eb47e69, type: 3}
+  soundToPlay: {fileID: 8300000, guid: 848164ff1db4e3b4a9e3b1d8b4f0af28, type: 3}
+  playUntilFinish: 1
+  shouldLoop: 1
+  isUnlocked: 1
+  currentUpgradeLevel: 0
+  upgradeCosts: 2c0100002602000084030000
+  weaponSprite: {fileID: 21300000, guid: 2b8167a7f3598ea4e8f4bee381deece4, type: 3}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  playerTransform: {fileID: 0}
+  weaponTransform: {fileID: 2929578458344829883}
+  radius: 3
+  attractTime: 4
+  stunTime: 4.5
+  knockbackForce: 5
+  damageDelay: 0.5
+  pushParticleEffectPrefab: {fileID: 3190367808294891803, guid: d4cbd10019737ab43be1c0c37790bcce,
+    type: 3}
+--- !u!1001 &2497096165761662244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 2929578458344829883}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6615589270337870285, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c4dd46b689708d2489793af741d474be, type: 2}
+    - target: {fileID: 919132149155446097, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_Name
+      value: W_MortarPestle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297066318899855533, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c4dd46b689708d2489793af741d474be, type: 2}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6eea4d8625e10d847bbd8ff3b5633017, type: 3}
+--- !u!4 &2679024707256965839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6eea4d8625e10d847bbd8ff3b5633017,
+    type: 3}
+  m_PrefabInstance: {fileID: 2497096165761662244}
+  m_PrefabAsset: {fileID: 0}

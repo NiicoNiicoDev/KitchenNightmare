@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &915093555796076111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 915093555796076110}
+  - component: {fileID: 915093555796076109}
+  m_Layer: 0
+  m_Name: Procedural Generation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &915093555796076110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915093555796076111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &915093555796076109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915093555796076111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09612af0429e7c54c9a4cb9999be2f64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawningBounds: {x: 80, y: 80}
+  scriptableObject: {fileID: 11400000, guid: 24244ef4243ba754687995ef7662c510, type: 2}
+  roomPrefabs:
+  - {fileID: 2286666506853330241, guid: b6467b72f6b2fe043a37aedcd5f51173, type: 3}
+  - {fileID: 6853257104491637624, guid: 1b7087bd0b8395f4294b3275f17db48a, type: 3}
+  - {fileID: 5681264519382466506, guid: 6b5e8562497ec1b4f88abd6fb9bbe10d, type: 3}
+  - {fileID: 8102058120749670334, guid: 88d1ec23fdb22a040aeb88365a15110c, type: 3}
+  - {fileID: 5943984825543349640, guid: 9f432ad63c731b24fb06df911f09ef7a, type: 3}
+  numberOfRooms: 10
+  startRoom: {fileID: 5973533694398065558, guid: 8dc19684e4b11694fac4becf7c10ed2d,
+    type: 3}
+  bossRoom: {fileID: 864523486807651585, guid: 65e2186b18468d24dbd26c11fbdf7f0a, type: 3}
+  straightHallwayPrefab: {fileID: 2366927255651116023, guid: fca94c4e4601b564799a4fe82a835884,
+    type: 3}
+  turnHallwayPrefab: {fileID: 2576606999659078118, guid: 130d8f01dd549c944b90e41524b02e65,
+    type: 3}
+  randomLoopNumber: 2
+  gridSnapValue: 2
+  testedSeedAsset: {fileID: 4900000, guid: ad0421783e1f79045a1f936bda270365, type: 3}
+  seedTextDisplay: {fileID: 0}
+  showTriangulation: 0
+  showCommonEdge: 0
+  showDelaunayEdge: 0
+  showMST: 1
+  showOverlapRadius: 0
+  killOnFail: 1
+  seed: 1000
+  randomSeed: 0
+  useTestedSeeds: 1
+  numberOfNewSeeds: 18
+  seedTextAsset: {fileID: 4900000, guid: ad0421783e1f79045a1f936bda270365, type: 3}
+  isTesting: 0

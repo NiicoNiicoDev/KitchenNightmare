@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8621020390642114946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8621020390642114951}
+  - component: {fileID: 8621020390642114944}
+  - component: {fileID: 8621020390642114945}
+  m_Layer: 0
+  m_Name: P_WaveTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8621020390642114951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621020390642114946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8621020390642114944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621020390642114946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb411e57fdf1c2c449994d54cfab248d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnParticle: {fileID: 930520035959874919, guid: 6fa3696925f997e459a353f33bb836c7,
+    type: 3}
+  bUseFixedSpawning: 1
+  enemyWaveSO: {fileID: 11400000, guid: 6fdf6f408e127c5478789f172445cba6, type: 2}
+  enemyPrefabs:
+  - {fileID: 9111550292458767562, guid: 45d6fc677dc7f974f87a09f800aca598, type: 3}
+  - {fileID: 6351527623375173683, guid: 4af040e13e7835448866914b22247b24, type: 3}
+  - {fileID: 2418442800193912964, guid: 490c44ca42c2b484786c8e14c7a1eddf, type: 3}
+  - {fileID: 1578338767782910837, guid: c50e83f1924b48342aba542d2e30cf35, type: 3}
+  - {fileID: 3500254400110666464, guid: 5e1e098ef31463c4d9b522dd24cb3174, type: 3}
+  - {fileID: 4430668002563949063, guid: 53ce7dbbf790488409bf784b14b83ee3, type: 3}
+  - {fileID: 1147159676300824077, guid: 32010ef410d7dc4499beff0e4106cbd0, type: 3}
+  maxNumberOfWaves: 5
+  maxNumberOfSpawns: 10
+  areaSizeX: 5
+  areaSizeZ: 5
+  bLimitStrongEnemies: 1
+  numberOfWaves: 0
+  enemyWave:
+    enemiesInWave: []
+  bEnemyTypeDefeated: 0
+--- !u!65 &8621020390642114945
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621020390642114946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 1, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}

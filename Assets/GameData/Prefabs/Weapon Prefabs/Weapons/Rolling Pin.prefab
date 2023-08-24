@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5955539035779775695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6479980160380593781}
+  - component: {fileID: 7945009496317716944}
+  - component: {fileID: 5307121914124147994}
+  - component: {fileID: 6106437949909147525}
+  m_Layer: 0
+  m_Name: Rolling Pin
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6479980160380593781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5955539035779775695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.421339, y: -0.00000047683716, z: 17.246925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7945009496317716944
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5955539035779775695}
+  m_Mesh: {fileID: -7387706064836869012, guid: 985156a2c9d67794b9b30f17b4bff042, type: 3}
+--- !u!23 &5307121914124147994
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5955539035779775695}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3faef80703cb1ef4fad4a5873249083d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6106437949909147525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5955539035779775695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44846c4838831bc4aa4e5e2e96e07cb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseDamage: 5
+  damage: 11
+  cooldown: 10
+  animName: Anim_SpoonAttack
+  VFX_Prefab: {fileID: 0}
+  attackOutlinePrefab: {fileID: 0}
+  VFX_Spawn_Point: {fileID: 0}
+  VFX_Spawn_Rotation: {x: 0, y: 0, z: 0}
+  attatchAnimToPlayer: 1
+  attatchAnimToWeapon: 0
+  killAnimOnAttackEnd: 1
+  shouldRotate: 1
+  canPlayerMove: 1
+  equipSound: {fileID: 0}
+  soundToPlay: {fileID: 0}
+  playUntilFinish: 1
+  shouldLoop: 0
+  isUnlocked: 0
+  currentUpgradeLevel: 0
+  upgradeCosts: 640000002c01000058020000
+  weaponSprite: {fileID: 21300000, guid: 2bfbd284015f73e4083954ca49e953d2, type: 3}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  playerTransform: {fileID: 0}
+  weaponTransform: {fileID: 6479980160380593781}
+  attackHitbox: {x: 5, y: 1, z: 1}
+  attackRange: 5
+  rollingPinProjectile: {fileID: 3624863345781110535, guid: f426ffcd06b51a44a928ac5a9d585f33,
+    type: 3}

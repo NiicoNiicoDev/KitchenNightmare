@@ -1,0 +1,703 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5361781679366648137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5361781679366648139}
+  - component: {fileID: 5361781679366648136}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5361781679366648139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361781679366648137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.8864372, y: -0.64874524, z: -0.2994212}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5361781679366648136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361781679366648137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1af526feb73fe47a5393da46ea2b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx:
+  - name: SFX_Amb_AirConditioner
+    clip: {fileID: 8300000, guid: b0ff90f6f9ea3f94986700e91c5e799b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_Fridge
+    clip: {fileID: 8300000, guid: 5700e34ab7c896349bc7e65b2483ff30, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_Frying
+    clip: {fileID: 8300000, guid: 9704675ca8f11694db6c391556089861, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_GasCooker
+    clip: {fileID: 8300000, guid: 3eebdbeb015057d43888d865e7530b1d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_GasLeaking
+    clip: {fileID: 8300000, guid: 2137311e3fa600c48b440cc94c2490bc, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_MicrowaveBeeps
+    clip: {fileID: 8300000, guid: c01d241aae4fdf843a2486d4a0bb93af, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_MicrowaveHum
+    clip: {fileID: 8300000, guid: e4ca70bff8caffd4d8ac0da6ad3e0b95, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Game_Lose
+    clip: {fileID: 8300000, guid: 7ed0635a53aca6e45a3d59e95a78e7f1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Game_Select
+    clip: {fileID: 8300000, guid: 2c7567b7b276c27439dc69d9e7eb3bdf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Game_UI
+    clip: {fileID: 8300000, guid: ed7c5d55da3631a4099dc8ffa75082ce, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Game_Win
+    clip: {fileID: 8300000, guid: a12a388d1db9ffc4e84bf0597ed09606, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Char_Grunt
+    clip: {fileID: 8300000, guid: ff12c687390c6b64cb8f26a0b924e460, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Char_Hit
+    clip: {fileID: 8300000, guid: 31d3374e83f2b4d4b8ad35c69493a10a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Char_Step_1
+    clip: {fileID: 8300000, guid: 5a423dba5fcc5a942b970eb56e42c6a2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Char_Step_2
+    clip: {fileID: 8300000, guid: 5b8322218c4cb204aa035b81a60e60ca, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Button
+    clip: {fileID: 8300000, guid: 42b3cbe384c63d647918f15756355a69, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_DoorSmash
+    clip: {fileID: 8300000, guid: f890f0681a57d9b43aba322c6e7d4f87, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_ScorePing
+    clip: {fileID: 8300000, guid: e535bbfc61a729f4384f68bb7c37f519, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  restaurantAmb:
+  - name: SFX_Amb_Restaurant_1
+    clip: {fileID: 8300000, guid: 1af91a2b1e825354f90d74aafe8cf403, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_Restaurant_2
+    clip: {fileID: 8300000, guid: 948cad546fd4a734abd11451d6c486cd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_Restaurant_3
+    clip: {fileID: 8300000, guid: 6f13daca2ff439e42bca80df8efda333, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_Restaurant_4
+    clip: {fileID: 8300000, guid: 3be1de29a0252414b8ed15d9b97a727b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SFX_Amb_Restaurant_5
+    clip: {fileID: 8300000, guid: f6ce82072fa471445a6cc246c0ee1be2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  music:
+  - name: Credits music
+    clip: {fileID: 8300000, guid: 77cd3a1bcd1f8d241989206f244b7467, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 1 music
+    clip: {fileID: 8300000, guid: ad01595c023c9214f87db0702f6f41b4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Main Theme
+    clip: {fileID: 8300000, guid: 96a463730ec56bb439f7b9bb6eff677e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss fight - Whole
+    clip: {fileID: 8300000, guid: 8b4b2207b11201b48b7ef49a2d07ebf4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Boss fight - End
+    clip: {fileID: 8300000, guid: a49a5c1d5592cf94ab23a632d03eca59, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Boss fight - Main loop
+    clip: {fileID: 8300000, guid: ec9de0d5a4a700e419b29b09f62b109d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  bossBarks:
+  - name: SFX_Boss_Bark_Sngl_Dark_1
+    clip: {fileID: 8300000, guid: 586d9e4b99a5a154b84b7952c3d54a15, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Dark_2
+    clip: {fileID: 8300000, guid: 69cb805708e44e8409d9d444b8fc4ded, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Dark_3
+    clip: {fileID: 8300000, guid: 7fd1c6a222b9ecb4f861fd1aa3f2a212, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Dark_4
+    clip: {fileID: 8300000, guid: 49b144e0595fa1444b687361ed5617ff, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Dark_5
+    clip: {fileID: 8300000, guid: 00151b51f9f5abd44bff0ec55159021f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Dark_6
+    clip: {fileID: 8300000, guid: 7c66dfa6ec8b24b4fac59322aa99221f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Dark_7
+    clip: {fileID: 8300000, guid: c2321a12b5bf9d94ead17a61f263dbf9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Dark_8
+    clip: {fileID: 8300000, guid: 4842e0ca3c556ba448e87ec0942714db, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_1
+    clip: {fileID: 8300000, guid: 9ce54cc016c005e45a0e23948adcc72c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_2
+    clip: {fileID: 8300000, guid: 4330766c663edb445bad14cd4b8b26b0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_3
+    clip: {fileID: 8300000, guid: 74549f7085e619c43b0b9f2147ed9149, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_4
+    clip: {fileID: 8300000, guid: f53000c624961ae4eb72420b3b32cd90, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_5
+    clip: {fileID: 8300000, guid: 8d77482c21356244e91d93d0d74c7829, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_6
+    clip: {fileID: 8300000, guid: f9e89f9e34855fd42a18f4dda015fc49, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_7
+    clip: {fileID: 8300000, guid: 2ff7d77769b2fa84f96da523bb579d82, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Boss_Bark_Sngl_Nrml_8
+    clip: {fileID: 8300000, guid: b6a65d7d6e9e3454292ef18b51742034, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  peasBarks:
+  - name: SFX_Peas_Bark_Sngl_Dark_1
+    clip: {fileID: 8300000, guid: 19ce35e46b7e31f429965ee39b42b093, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_2
+    clip: {fileID: 8300000, guid: 168150aa467518e4eb36011abf3ebd75, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_3
+    clip: {fileID: 8300000, guid: 9c573afaa106dc94dbdb66f8d45cedaa, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_5
+    clip: {fileID: 8300000, guid: 91d513f79a28a7443914aa43ec1f43a1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_6
+    clip: {fileID: 8300000, guid: c8cb6f2f872731640b14977396009980, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_7
+    clip: {fileID: 8300000, guid: 5fe15699da6b6ee42bd3e26752b8374a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_8
+    clip: {fileID: 8300000, guid: 0415c158411e6f74d90fcc93ede29b01, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Norm_1
+    clip: {fileID: 8300000, guid: 50c96a8d9fbb3a041b701f008af76c8a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Norm_2
+    clip: {fileID: 8300000, guid: f98903bed19e8484e9e8e3c7a350b660, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Norm_4
+    clip: {fileID: 8300000, guid: 0377242c7dac25047898a9a7f76484ce, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Norm_5
+    clip: {fileID: 8300000, guid: 05fbe8d76500c774a91f74d15d9c0698, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Norm_6
+    clip: {fileID: 8300000, guid: d18972ce5efd0a54aa2147e0018767e9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Norm_7
+    clip: {fileID: 8300000, guid: fe02f7e8381608c46831cecefe27edb8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Norm_8
+    clip: {fileID: 8300000, guid: 372c2636b7605fa419d40b05c34fda0a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  noriBarks:
+  - name: SFX_Nori_Bark_Sngl_Dark_1
+    clip: {fileID: 8300000, guid: aa3d2fc43134e6a46bc769ed8a91ef42, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Dark_2
+    clip: {fileID: 8300000, guid: 0862ae27e39656f4eaf9ffda2fd88c11, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Dark_3
+    clip: {fileID: 8300000, guid: f34c9f93bf4c3b94ea9ded0eff716efe, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Dark_4
+    clip: {fileID: 8300000, guid: 327e8daba358ed240b12f3a964f5ba4e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Dark_5
+    clip: {fileID: 8300000, guid: 228f0f1220bd8e147bfb3ee777eaabaf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Dark_6
+    clip: {fileID: 8300000, guid: fc4975f73cde26e4681a0f15425ce532, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Dark_7
+    clip: {fileID: 8300000, guid: d9a4046ef5a36fa4ab378aa98309e575, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Dark_8
+    clip: {fileID: 8300000, guid: 1c2ff454b485cff45a0f743144d57435, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Nrml_1
+    clip: {fileID: 8300000, guid: 86e7963362be1d84ea28be92393b56d8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Nrml_3
+    clip: {fileID: 8300000, guid: 25733c14d3ccb6746a229b21b7962193, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Nrml_4
+    clip: {fileID: 8300000, guid: 225321d2a0919a44fb03ab0bc0050642, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Nrml_5
+    clip: {fileID: 8300000, guid: 0b141761a7df94c41848cdf9862cb475, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Nrml_6
+    clip: {fileID: 8300000, guid: d90144add82d780478d7747065df9319, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Nrml_7
+    clip: {fileID: 8300000, guid: 2694d5c43c312e34d90a173e46032e01, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Nori_Bark_Sngl_Nrml_8
+    clip: {fileID: 8300000, guid: 8476190f00bffcb44aa0d4d32ead4ab4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  salmonBarks:
+  - name: SFX_Slmn_Bark_Sngl_Dark_1
+    clip: {fileID: 8300000, guid: 6eafb403ae5e7184e831719aab8c0a5f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Dark_2
+    clip: {fileID: 8300000, guid: e453c1c88ccb14b4db6c09c9342e3db3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Dark_3
+    clip: {fileID: 8300000, guid: a85caf7e50d1f7f4fb7fdc5be54434c2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Dark_4
+    clip: {fileID: 8300000, guid: e64fce1e64d2e914a97e1abce9aae8c1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Dark_5
+    clip: {fileID: 8300000, guid: 61e6b16cdf3e6754caa19330481fb672, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Dark_6
+    clip: {fileID: 8300000, guid: 76492bd6b3830f2498f87ba171063089, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Dark_7
+    clip: {fileID: 8300000, guid: cb1909bcf03602e4690aaaccaced5223, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Dark_8
+    clip: {fileID: 8300000, guid: 5b5163312d1d7b5408c46557f9879c8d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_1
+    clip: {fileID: 8300000, guid: b8ed5b8f68ddb104596610ce314854fa, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_2
+    clip: {fileID: 8300000, guid: 58e1f46aef9002243a1e67de64c5e336, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_3
+    clip: {fileID: 8300000, guid: 0a6a3ef50cd648347b17903f6cd10feb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_4
+    clip: {fileID: 8300000, guid: f0649a6da07f85c4f855b199c8d6dd40, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_5
+    clip: {fileID: 8300000, guid: 692ae4e76bdd85b46bc79560b50e3ed7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_6
+    clip: {fileID: 8300000, guid: 922be79bffebe7e4fb80bee1c02fc05e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_7
+    clip: {fileID: 8300000, guid: bfcb4e7e2b36ac143a2694331c6baf4a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Slmn_Bark_Sngl_Nrml_8
+    clip: {fileID: 8300000, guid: 7ff9972ca7cb0a14ab39a208239d47a9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  riceBarks:
+  - name: SFX_Peas_Bark_Sngl_Dark_1
+    clip: {fileID: 8300000, guid: 2bff18d3fc4d0da4dbab18862e1b6ab8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_2
+    clip: {fileID: 8300000, guid: 5727b6f8f1814f24eaa618e89021f679, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_3
+    clip: {fileID: 8300000, guid: c47d4e1f8b53f054a9c4096401484195, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_4
+    clip: {fileID: 8300000, guid: a369560d2a92618449d4b588f8834ae1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_5
+    clip: {fileID: 8300000, guid: c6ed9cbcedd85e54ca726a046a661e27, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_6
+    clip: {fileID: 8300000, guid: 6ce94c3042b3bef49ae5bca6337d8ea3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_7
+    clip: {fileID: 8300000, guid: e48818b1f8357444b84f3882a8b2cf8c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Dark_8
+    clip: {fileID: 8300000, guid: 312c9832c8a22e64680ead14798aa11f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_1
+    clip: {fileID: 8300000, guid: aedae3d0d7ae1154993121d313674f77, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_2
+    clip: {fileID: 8300000, guid: 4139486801093b1468154434001acf2c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_3
+    clip: {fileID: 8300000, guid: 68b24b8598224454099dd2d4691e2b1e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_4
+    clip: {fileID: 8300000, guid: ba6cb898bfc6b1643b543487a62faa09, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_5
+    clip: {fileID: 8300000, guid: 9a94b1b5f4dcf934ca3023daf382f026, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_6
+    clip: {fileID: 8300000, guid: 9fe8ddcd25e155a4b84eff17c5330c47, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_7
+    clip: {fileID: 8300000, guid: 59e9ec55c6a520c4eab2f7e8cbbbeb7b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SFX_Peas_Bark_Sngl_Nrml_8
+    clip: {fileID: 8300000, guid: 9ab7a0465c592e94c959d29ea3b3b060, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  musicMixerGroup: {fileID: 2836239008607742266, guid: 7e0d3ab7925f7664f8089252e8646b3c,
+    type: 2}
+  walkingMixerGroup: {fileID: -4509505320494744480, guid: 7e0d3ab7925f7664f8089252e8646b3c,
+    type: 2}
+  scorePingGroup: {fileID: -126755145287792484, guid: 7e0d3ab7925f7664f8089252e8646b3c,
+    type: 2}
+  sfxMixerGroup: {fileID: 2457568275884101250, guid: 7e0d3ab7925f7664f8089252e8646b3c,
+    type: 2}
+  currentSliderValues:
+  - 1
+  - 1
+  - 1
+  bVolumeMuted: 0

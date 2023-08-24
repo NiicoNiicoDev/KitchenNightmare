@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Personal Folders/Szymon/Scenes/Design_4.unity
+    guid: e5c94c7e659dd2b41aaa30b9a0a86f70
+  - enabled: 1
+    path: Assets/Final Scenes/Final_Tutorial_Level.unity
+    guid: feea59d71d983a045933c86560105dd7
+  - enabled: 1
+    path: Assets/Final Scenes/Game_Scene.unity
+    guid: 8b298b3ae035ebe4a98136253d00cf30
+  - enabled: 0
+    path: Assets/Final Scenes/Tutorial_Level.unity
+    guid: bcce3c9b3d380e043aefcc0625c61ac3
+  - enabled: 0
+    path: Assets/Personal Folders/Joe/Scene_Joe.unity
+    guid: 59554e424173251498d2b5a6e8e44fa7
+  m_configObjects: {}

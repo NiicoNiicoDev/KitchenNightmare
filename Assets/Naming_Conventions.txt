@@ -1,0 +1,11 @@
+
+Naming Conventions
+Scripts > SCR_Name
+FBX Files > MDL_FBX_Name
+Generalised Models > MDL_Name
+Materials > MAT_Name
+Shaders > Shader_Name
+Shader Graph > Shader_Graph_Name
+Scenes > Scene_Name
+
+(Remember to re-check  this file on a weekly basis as it will be updated. If you are unsure on how to name any specific type of file just message George.)
